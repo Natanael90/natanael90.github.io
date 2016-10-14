@@ -1,6 +1,6 @@
 ---
 layout: default
-post
+#post
 title: Welcome to my blog on Github Pages
 published: true
 ---
