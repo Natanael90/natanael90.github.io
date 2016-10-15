@@ -4,10 +4,10 @@ title: Natanael's public notes
 --- 
 <h1>{{ page.title }}</h1> 
 <p>A list of random thoughts</p>
-<ul class="posts"> 
+<p><ul class="posts"> 
 {% for post in site.posts %} 
- {% if post.note == true %}
+ {% if post.is-note == true %}
 <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {%endif %} 
 {% endfor %} 
-</ul>
+</ul></p>
