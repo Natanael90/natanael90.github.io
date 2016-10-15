@@ -7,4 +7,7 @@ layout: default
 <a href="{{ self.url }}">permalink</a>
 </p> 
 
-<div class="post"> {{ content }} </div>
+<p><div class="post"> {{ content }} </div></p>
+
+<!-- Post comments --> 
+<p><div class="notecomments"> {% include disqus.html %} </div></p>
