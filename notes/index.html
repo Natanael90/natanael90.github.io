@@ -1,13 +1,13 @@
 --- 
 layout: default 
-title: Natanael's blog
+title: Natanael's public notes
 --- 
 <h1>{{ page.title }}</h1> 
-<p>The complete archive of posts</p>
+<p>A list of random thoughts</p>
 <ul class="posts"> 
 {% for post in site.posts %} 
- {% if post.blog == true %}
+ {% if post.note == true %}
 <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
- {%endif %} 
+{%endif %} 
 {% endfor %} 
 </ul>

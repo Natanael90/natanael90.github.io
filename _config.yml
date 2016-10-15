@@ -1,2 +1,5 @@
 name: Natanael's collection of thoughts
-permalink: /blog/:year/:month/:day/:title
+includes: ["_pages"]
+permalink: /blog/:year-:month-:day-:title
+category-list: [linux, crypto, security, math, protocols, software, miscellaneous]
+page-type: [blog, notes] 
